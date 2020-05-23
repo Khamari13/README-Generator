@@ -24,6 +24,11 @@ const questions = [
         name: "title",
         message: "Enter your project's name"
       },
+      {
+        type: "input",
+        name: "description",
+        message: "Write a short description of your project"
+      },
 ];
 
 function writeToFile(fileName, data) {
