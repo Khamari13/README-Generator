@@ -41,6 +41,12 @@ const questions = [
           message: "What command should be run to install dependencies?",
           default: "npm i"
       },
+      {
+          type: "input",
+          name: "test",
+          message: "What command should be run to begin the tests",
+          default: "npm test"
+      }
 
       
 ];
