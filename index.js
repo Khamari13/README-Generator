@@ -14,6 +14,11 @@ const questions = [
         name: "email",
         message: "Enter your email"
       },
+      {
+        type: "input",
+        name: "projectURL",
+        message: "Enter your projects URL"
+      },
 ];
 
 function writeToFile(fileName, data) {
