@@ -46,6 +46,16 @@ const questions = [
           name: "test",
           message: "What command should be run to begin the tests",
           default: "npm test"
+      },
+      {
+          type: "input",
+          name: "usage",
+          message: "describe the usage of the repo",
+      },
+      {
+          type: "input",
+          name: "contributing",
+          message: ""
       }
 
       
